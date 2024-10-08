@@ -10,7 +10,7 @@ int main()
     for (i = 0; i <= 14; i++)
     {
         printf("Digite o nome do cliente: ");
-        scanf("%s", &nome[i]);
+        scanf("%s", nome[i]);
 
         fflush(stdin);
 
